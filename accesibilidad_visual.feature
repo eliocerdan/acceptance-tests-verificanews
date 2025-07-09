@@ -1,11 +1,11 @@
-Feature: Accesibilidad para usuarios con discapacidad visual
+Feauture: Accesibilidad para usuarios con discapacidad visual
 
-  Scenario: Navegación usando lector de pantalla
-    Given el lector de pantalla está activado
-    When el usuario navega por la página
-    Then cada sección debe tener etiquetas accesibles
+  Escenario: Navegación usando lector de pantalla
+    Dado que el lector de pantalla está activado
+    Cuando el usuario navega por la página
+    Entonces cada sección debe tener etiquetas accesibles
 
-  Scenario: Navegación usando solo teclado
-    Given el usuario no usa mouse
-    When presiona la tecla TAB
-    Then puede acceder a todos los elementos funcionales
+  Escenario: Navegación usando solo el teclado
+    Dado que el usuario no utiliza el mouse
+    Cuando presiona la tecla TAB
+    Entonces puede acceder a todos los elementos funcionales
