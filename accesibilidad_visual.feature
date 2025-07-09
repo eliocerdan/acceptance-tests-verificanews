@@ -1,4 +1,4 @@
-Feauture: Accesibilidad para usuarios con discapacidad visual
+Feature: Accesibilidad para usuarios con discapacidad visual
 
   Escenario: Navegación usando lector de pantalla
     Dado que el lector de pantalla está activado
